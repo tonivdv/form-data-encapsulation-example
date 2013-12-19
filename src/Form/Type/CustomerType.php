@@ -27,6 +27,7 @@ class CustomerType extends AbstractType
     {
         $resolver->setDefaults(
           array(
+            'data_class' => 'Model\Customer',
             'empty_data' => function (FormInterface $form) {
                   return new Customer(
                     $form->get('name')

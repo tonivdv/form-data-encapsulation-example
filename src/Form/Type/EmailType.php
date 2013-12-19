@@ -25,6 +25,7 @@ class EmailType extends AbstractType
     {
         $resolver->setDefaults(
           array(
+            'data_class' => 'Model\Email',
             'empty_data' => function (FormInterface $form) {
                   return new Email(
                     $form->get('email')

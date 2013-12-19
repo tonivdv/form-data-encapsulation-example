@@ -26,7 +26,7 @@ class CustomerTypeTest extends TypeTestCase
           'email' => array('email' => 'my@email.com')
         );
 
-        $customer = new Customer($formData['name'], new Email($formData['email']));
+        $customer = new Customer($formData['name'], new Email($formData['email']['email']));
 
         $type = new CustomerType();
         $form = $this->factory->create($type);

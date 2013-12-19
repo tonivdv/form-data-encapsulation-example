@@ -16,4 +16,17 @@ class Customer
         $this->name = $name;
         $this->email = $email;
     }
+
+    /**
+     * @return \Model\Email
+     */
+    public function getEmail()
+    {
+        return $this->email;
+    }
+
+    public function getName()
+    {
+        return $this->name;
+    }
 } 
