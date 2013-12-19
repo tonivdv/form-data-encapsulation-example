@@ -1,0 +1,16 @@
+{
+    "name": "tonivdv/form-data-encapsulation-example",
+    "license": "mit",
+    "description": "Form Data Encapsulation Example",
+    "autoload": {
+        "psr-0": {
+            "": "src/"
+        }
+    },
+    "require": {
+        "symfony/form": "2.3.*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~3.7"
+    }
+}
