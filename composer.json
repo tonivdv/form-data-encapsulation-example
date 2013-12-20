@@ -1,6 +1,6 @@
 {
     "name": "tonivdv/form-data-encapsulation-example",
-    "license": "mit",
+    "license": "MIT",
     "description": "Form Data Encapsulation Example",
     "autoload": {
         "psr-0": {
